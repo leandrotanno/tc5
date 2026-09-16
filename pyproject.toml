@@ -1,0 +1,36 @@
+[project]
+name = "tc5-passos-magicos"
+version = "0.1.0"
+description = "Datathon Fase 5 (POSTECH FIAP) - Case Passos Magicos"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "openpyxl>=3.1",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "optuna>=3.6",
+    "shap>=0.46",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "streamlit>=1.38",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+    "ruff>=0.6",
+    "pytest>=8.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tc5"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
