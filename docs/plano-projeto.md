@@ -97,12 +97,11 @@ risco combinado (defasagem + evasão), filtro por fase/turma, driver
 dominante por aluno, exportação CSV pra virar lista de trabalho real da
 equipe. Deploy no Streamlit Community Cloud.
 
-**Storytelling**, respondendo as perguntas Q1-Q10 do enunciado (perfil de
-IAN, evolução de IDA, relação IEG↔IDA/IPV, coerência IAA↔desempenho real,
-padrões IPS antecedendo quedas, IPP vs IAN, comportamentos que influenciam
-IPV, combinações de indicadores que elevam INDE, efetividade do programa por
-fase Quartzo/Ágata/Ametista/Topázio), amarrando com os relatórios anuais da
-associação pra dar peso de impacto real, não só gráfico solto.
+**Storytelling**, respondendo as perguntas 1-10 do enunciado (texto literal
+em `docs/fontes/enunciado-datathon.md`) e usando a 11 (insights e
+criatividade) pra apresentar o modelo de evasão e o dashboard de triagem.
+Amarrar com os relatórios anuais da associação pra dar peso de impacto
+real, não só gráfico solto.
 
 ## Entregáveis
 
