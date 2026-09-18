@@ -6,3 +6,21 @@ __pycache__/
 .ruff_cache/
 .streamlit/secrets.toml
 .env
+
+# Gerado por `just panel` / `just features` / notebooks/01_modelagem.ipynb —
+# regenerável a partir de data/raw/. risco_atual.csv é a exceção: o app
+# Streamlit lê ele direto, então fica versionado para o deploy funcionar
+# sem precisar rodar o pipeline primeiro.
+data/processed/panel_longitudinal.csv
+data/processed/features.csv
+data/processed/risco_alunos.csv
+data/processed/model_defasagem.joblib
+data/processed/model_evasao.joblib
+
+# Gráficos exportados dos notebooks para montar a apresentação no Gamma —
+# já entregues fora do repo, não são deliverable de código.
+docs/storytelling-assets/
+
+# Redundante: fórmulas já transcritas em docs/plano-projeto.md. Mantido só
+# localmente como fonte original.
+docs/fontes/pede-pontos-importantes.docx

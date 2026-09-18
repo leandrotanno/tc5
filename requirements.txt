@@ -1,0 +1,5 @@
+# Dependências do app Streamlit (app/dashboard.py) para o Community Cloud.
+# O projeto completo (notebooks, modelagem) usa uv + pyproject.toml — ver
+# README.md. Este arquivo é só o necessário pra rodar o dashboard.
+pandas==3.0.5
+streamlit==1.63.0
