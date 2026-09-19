@@ -1,7 +1,5 @@
 # Datathon — Case Passos Mágicos (enunciado oficial, POSTECH FIAP Fase 5)
 
-Transcrito de `POSTECH - Datathon - Fase 5.pdf`.
-
 ## Contexto do case
 
 Associação Passos Mágicos, 35 anos de atuação (desde 1992, Embu-Guaçu),
@@ -45,19 +43,4 @@ um modelo preditivo.
 11. **Insights e criatividade** — Insights e pontos de vista não abordados
     nas perguntas acima, com sugestões de melhoria pra Passos Mágicos.
 
-## Entrega
 
-- Link do GitHub com os códigos de limpeza e análise
-- Apresentação de storytelling em formato gerencial (PPT ou PDF)
-- Notebook Python com o modelo preditivo de risco de defasagem (Q9):
-  feature engineering, split treino/teste, modelagem, avaliação
-- App Streamlit com o modelo treinado, deploy no Community Cloud
-- Vídeo de até 5 minutos apresentando resultados e storytelling
-
-## Correção em relação ao `plano-projeto.md`
-
-O enunciado real numera as perguntas 1-11 (não "Q1-Q10" como o resumo
-anterior tratava) — a Q9 é especificamente o modelo de risco de defasagem
-(já construído), e a Q11 é o espaço aberto de "insights e criatividade"
-onde o modelo de evasão e o dashboard de triagem se encaixam como
-diferencial, não como resposta a uma pergunta numerada separada.
